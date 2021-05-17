@@ -1,0 +1,602 @@
+@media only screen and (max-width: 1060px){
+    
+    #banner .banner-content h2{
+        font-size: 240%;
+        margin-bottom: 30px;
+    }
+    #banner .banner-content p{
+        font-size: 95%;
+    }
+    #banner .banner-content .search-domain button{
+        position: absolute;
+        right: 0px;
+        top:50%;
+        transform: translateY(-50%);
+        padding: 15px 18px;
+        border-radius: 50px;
+        border: none;
+        font-size: 70%;
+        font-weight: 400;
+        color: #fff;
+        background: linear-gradient(to left, rgba(252, 62, 78, 1.0), rgba(255, 6, 102, 1.0));
+        height: 100%;
+        border: 4px solid #fff;
+    }
+    #banner .banner-content .search-domain input{
+        width: 100%;
+        border: none;
+        height: 55px;
+        border-radius: 50px;
+        padding: 5px 30px;
+        display: block
+    }
+
+    /* Price section */
+    #price .price-box{
+        padding: 25px 15px 40px;
+        flex-basis: 50%;
+        z-index: 99999999;
+    }
+    #price .price-top-area{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #price .price-top-img{
+        flex-basis: 45%;
+    }
+    #price .price-top-text{
+        flex-basis: 45%;
+        margin-top: 40px;
+    }
+    #price .price-top-img img{
+        margin-top: -10px;
+        margin-right: 15px;
+        margin-left: 0px;
+        height: 100%;
+        width: 100%;
+    }
+    #price .price-bottom-area{
+        padding-top: 0px;
+    }
+    
+
+}
+@media only screen and (max-width: 1000px){
+    #open{
+        display: block;
+    }
+    #header .logo{
+        height: 40px;
+    }
+    #header #navbar .menu li+li{
+        margin-left: 20px;
+    }
+    #banner .banner-content .domain-price ul{
+        display: block;
+    }
+    #banner .banner-content .domain-price ul li+li{
+        margin-left: 0;
+    }
+    #service .data-content{
+        flex-basis: 45%;
+        
+    }
+    #service .data-img{
+        flex-basis: 50%;
+    }
+    #service .data-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    #service .data-footer-img{
+        margin-bottom: 30px;
+    }
+    #service .data-content p{
+        font-size: 70%;
+        line-height: 1.6;
+        color: #ddd;
+        margin-bottom: 30px;
+    }
+    #security .security-card{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 1px;
+    }
+    #testimonial .testimonial-items{
+        flex-basis: 49%;
+        margin-bottom: 65px;
+    }
+    #blog .blog-items{
+        flex-basis: 49%;
+        border-radius: 5px;
+        margin-bottom: 2%;
+    }
+}
+@media only screen and (max-width: 900px){
+    
+    #banner .banner-content h2{
+        font-size: 210%;
+    }
+    #banner .banner-content p{
+        font-size: 80%;
+    }
+    #banner .banner-content .search-domain{
+        margin-top:90px;
+    }
+    #banner .banner-content .search-domain input{
+        padding: 5px 20px;
+        overflow: hidden;
+    }
+    #banner .banner-content .search-domain button{
+        font-size: 60%;
+        display: none;
+        position: relative;
+    }
+    #banner .banner-content .search-domain .short-search{
+        display: block;
+        z-index: 9999;
+        position: absolute;
+        right: 25px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #fc3d4d;
+    } 
+    #footer .footer-items:nth-child(1),
+    #footer .footer-items:nth-child(2),
+    #footer .footer-items:nth-child(3){
+    flex-basis: 33%;
+    }
+    #footer .footer-items:nth-child(4){
+        flex-basis: 33%
+    }
+    #footer .footer-items:nth-child(5){
+        flex-basis: 67%;
+    }   
+}
+@media only screen and (max-width: 800px){
+    #feature .feature-box{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 20px;
+    }
+    #feature .feature-items{
+        padding: 15px 10px;
+    }
+    #faq .faq-items{
+        flex-basis: 100%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .container{
+        padding: 0 25px;
+    }
+    .hamburger-open{
+        display: block;
+        color: #fff;
+        z-index: 9;
+    }
+    #header #navbar #menu{
+        display: none;
+    }
+    #header #navbar .menu{
+        display: inline-block;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 0px;
+        background: linear-gradient(to bottom , rgba(7, 20, 19, 1.0) 30%, rgba(8, 20, 21, 1.0) 70%);
+        width: 100%;
+        text-align: center;
+        padding: 40px 25px;
+        height: 80vh;
+        z-index: 9;
+        color: #fff;
+    }
+    #header #navbar .menu li{
+        margin-bottom: 15px;
+    }
+    #header #navbar .menu li+li{
+        margin-left: 0px;
+    }
+    #header #navbar .menu li a{
+        font-size: 120%;
+        background-clip: text;
+        color: transparent;
+        background-image: linear-gradient(to top left, rgba(250, 115, 55, 1.0), rgba(255, 6, 102, 1.0));
+    }
+    #header #navbar .menu li:last-child a{
+        display: inline-flex;
+        color: #fff;
+    }
+    #banner{
+        padding: 30px 0 100% 0;
+    }
+    #banner .banner-content{
+        flex-basis: 100%;
+    }
+    #banner .banner-content h2{
+        max-width: 75%;
+    }
+    #banner .banner-content p{
+        max-width: 100%;
+    }
+    #banner .banner-img{
+        flex-basis: 100%;
+        margin-top: 50px;
+    }
+    #banner .banner-content .search-domain input{
+        width: 100%;
+        border: none;
+        height: 55px;
+        border-radius: 50px;
+        padding: 5px 30px;
+        display: block;
+        position: relative;
+    }
+    #banner .banner-content .search-domain button{
+        display: block;
+        position: absolute;
+    }
+    #banner .banner-content .search-domain .short-search{
+        display: none;
+    } 
+    #price .price-top-text h4{
+        font-size: 120%;
+    }
+    #price .price-top-text p{
+        font-size: 80%;
+        margin-bottom: 20px;
+    }
+    #price .price-top-text h1{
+        font-size: 190%;
+    }
+    #price .price-top-text h1 span{
+        font-size: 30%;
+    }
+    #price .price-bottom-area ul li{
+        font-size: 75%;
+    }
+    /* plan section */
+    #plan .plan-items{
+        flex-basis: 48%;
+    }
+    #plan .plan-items img{
+        margin-right: 10px;
+    }
+    #plan .plan-items p{
+        font-size: 70%;
+        color: #8998af;
+    }
+    #plan h5{
+        font-size: 130%;
+    }
+    /* Feature */
+    .title span{
+        width: 100%;
+        text-align: center;
+        font-size: 75%;
+    }
+    .title p{
+        font-size: 60%;
+    }
+    .title h3{
+        font-size: 120%;
+        margin-bottom: 20px;
+    }
+    #service .data-box:nth-child(2) .data-content{
+        order: 1;
+    }
+    #service .data-box:nth-child(2) .data-img{
+        order: 2;
+        margin-top: 50px ;
+    }
+    #service .data-box:nth-child(3) .data-img{
+        margin-top: 50px ;
+    }
+    #service .data-box:nth-child(4) .data-img{
+        margin-top: 50px ;
+    }
+    #service .data-box:nth-child(4) .data-content{
+        order: 1
+    }
+    #service .data-box:nth-child(4) .data-img{
+        order: 2
+    }
+    #service .data-content{
+        flex-basis: 100%;
+    }
+    #service .data-img{
+        flex-basis: 70%;
+        margin: auto;
+    }
+    #service .data-box:nth-child(1) .data-img{
+        margin-top: 50px;
+    }
+    #security .security-card{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 1px;
+    }
+    #security .security-feature-img{
+        flex-basis: 70%;
+        margin:auto
+    }
+    #security .security-feature-content{
+        flex-basis: 100%;
+    }
+    #team .team-items{
+        flex-basis: 49%;
+        margin-bottom: 2%;
+    }
+    #team .team-box-2{
+        justify-content: space-between;
+        margin-top: 0;
+    }
+    #team .team-box-2 .team-items{
+        flex-basis: 49%;
+        margin-right: 0;
+    
+    }
+    #team .team-box-2 .team-items:nth-child(3){
+        padding: 100px 0;
+    }
+    #footer .footer-items form button{
+        display: block;
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width: 700px){
+    #price .price-top-text h4{
+        font-size: 120%;
+    }
+    #price .price-top-text p{
+        font-size: 80%;
+        margin-bottom: 20px;
+    }
+    #price .price-top-text h1{
+        font-size: 190%;
+    }
+    #price .price-top-text h1 span{
+        font-size: 30%;
+    }
+    #price .price-bottom-area ul li{
+        font-size: 75%;
+    }
+    #product .product-title h2{
+        font-size: 130%;
+    }
+}
+@media only screen and (max-width: 600px){
+    #price .price-box{
+        flex-basis: 100%;
+        overflow: hidden;
+    }
+    #price .price-top-text{
+        margin-top: 30px;
+    }
+    #price .price-top-text h4{
+        font-size: 140%;
+    }
+    #price .price-top-text p{
+
+        font-size: 90%;
+
+    }
+    #price .price-top-text h1{
+        font-size: 230%;
+    }
+    #price .price-top-text h1 span{
+        font-size: 30%;
+        font-weight: 400;
+    }
+    #price .price-bottom-area{
+        margin-top: 10px;
+        padding: 0px 20px 0;
+    }
+    #price .price-bottom-area ul li{
+        font-size: 85%;
+    }
+    #price .gurantee .gurantee-header i{
+        margin-left: 10px;
+        color: #fc3d4d;
+        display: none;
+    }
+    #price .gurantee .gurantee-header p{
+        font-size: 75%;
+    }
+    #price .price-top-img img{
+        width: 100%;
+        margin-top: -10px;
+        height: 100%
+    }
+
+    /* plan section */
+    #plan .plan-items{
+        flex-basis: 100%;
+    }
+    #plan .plan-items img{
+        margin-right: auto;
+    }
+    /* Feature Section */
+    #feature .feature-box{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 20px;
+    }
+    #feature .feature-items .feature-text{
+        margin-left: 35px;
+    }
+    #security .security-card{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 1px;
+    }
+    #testimonial .testimonial-items{
+        flex-basis: 100%;
+        margin-bottom: 65px;
+    }
+    #blog .blog-items{
+        flex-basis: 70%;
+        border-radius: 5px;
+        margin: 0 auto 5%;
+        
+    }
+    
+}
+@media only screen and (max-width: 500px){
+    #banner .banner-content h2{
+        font-size: 180%;
+        max-width: 100%;
+    }
+    #banner .banner-content .search-domain button{
+        display: none;
+        position: absolute;
+    }
+    #banner .banner-content .search-domain .short-search{
+        display: block;
+    } 
+    #price .price-top-text{
+        margin-top: 10px;
+    }
+    #price .price-bottom-area{
+        padding: 0px 20px 0;
+        margin-top: -50px;
+    }
+    #price .price-top-img img{
+        width: 100%;
+        margin-top: -10px;
+        height: 80%
+    }
+    #price .gurantee h3{
+        font-size: 100%;
+        margin-top: 10px;
+    }
+    #price .gurantee h3{
+        font-size: 90%;
+        margin-top: 10px;
+    }
+    #price .price-top-text h4{
+        font-size: 120%;
+    }
+    #price .price-top-text p{
+
+        font-size: 80%;
+
+    }
+    #price .price-top-text h1{
+        font-size: 200%;
+    }
+    #price .price-top-text h1 span{
+        font-size: 30%;
+        font-weight: 400;
+    }
+    /* feature */
+    .title p{
+        font-size: 50%;
+    }
+    .title h3{
+        font-size: 120%;
+    }
+    .title span{
+        font-size: 75%;
+    }
+    #feature .feature-items .feature-text{
+        margin-left: 20px;
+    }
+    #feature .feature-items h5{
+        font-size: 90%;
+
+    }
+    #feature .feature-items p{
+        font-size: 70%;
+        line-height: 1.1;
+    }
+    #blog .blog-items{
+        flex-basis: 90%;
+        border-radius: 5px;
+        margin: 0 auto 5%;
+        
+    }
+    #footer .footer-items:nth-child(1),
+    #footer .footer-items:nth-child(2),
+    #footer .footer-items:nth-child(3),
+    #footer .footer-items:nth-child(4){
+        flex-basis: 100%;
+        text-align: center;
+    }
+    #footer .footer-items:nth-child(5){
+        flex-basis: 100%;
+        text-align: center;
+    }
+    #footer .footer-items button{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+}
+}
+@media only screen and (max-width: 370px){
+    #banner .banner-content h2{
+        font-size: 150%;
+    }
+    #price .price-top-text {
+        margin-top: 0;
+    }
+    #price .price-top-text h4{
+        font-size: 100%;
+    }
+    #price .price-top-text p{
+        font-size: 70%;
+        margin-bottom: 15px;
+    }
+    #price .price-bottom-area ul li{
+        font-size: 70%;
+        
+    }
+    #price .price-bottom-area{
+        margin-top: -30px;
+    }
+    #price .price-signup-btn button{
+        font-size: 65%;
+    }
+    #price .gurantee h3{
+        font-size: 75%;
+        margin-top: 10px;
+    }
+    #price .price-top-text h1{
+        font-size: 140%;
+    }
+    #price .price-signup-btn{
+        text-align: center;
+        margin-top: 20px;
+    }
+    #feature .feature-items h5{
+        font-size: 90%;
+    }
+    #feature .feature-items p{
+        font-size: 60%;
+        line-height: 1.1;
+    }
+    #security .security-card{
+        grid-template-columns: auto;
+    }
+    #team .team-items{
+        flex-basis: 100%;
+        margin-bottom: 2%;
+    }
+    #team .team-box-2 {
+        margin-top: 0;
+    }
+    #team .team-box-2 .team-items{
+        flex-basis: 100%;
+        margin-right: 0;
+    }
+    #blog .blog-items{
+        flex-basis: 100%;
+        border-radius: 5px;
+        margin: 0 auto 5%;
+        
+    }
+}
